@@ -1,3 +1,11 @@
+Hospital_v5 created 28 Jan 2015:
+
+-added gem 'faker' to Gemfile
+
+-created rake task to create new data for clinics, patients and medicaitons.  Currently each patient only has one medication which is completely different from all others.  Would like to create 4 under each.  Needs to figure out how to add doctors data. (in CMD run "rake create_data")
+
+-
+-------------------------------------------------------------------------------
 Hospital_v4 created 27 Jan 2015:
 
 -added correct redirect for delete doctor from patient list. 
